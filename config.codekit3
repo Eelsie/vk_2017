@@ -22,14 +22,14 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
-	"\/mat\/201707-HND-05.JPG": {
+	"\/mat\/201611-UGA-283.jpg": {
 		"ft": 16384,
-		"iS": 9873203,
+		"iS": 5376096,
 		"oA": 0,
-		"oAP": "\/build\/mat\/201707-HND-05.jpg",
+		"oAP": "\/build\/mat\/201611-UGA-283.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/src\/_base.scss": {
@@ -86,6 +86,16 @@
 		"oAP": "\/build\/fonts\/veneer-webfont.woff",
 		"oF": 0
 		},
+	"\/src\/img\/ceily.JPG": {
+		"ft": 16384,
+		"iS": 9873203,
+		"oA": 0,
+		"oAP": "\/build\/img\/ceily.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/img\/cover.jpg": {
 		"ft": 16384,
 		"iS": 452506,
@@ -94,6 +104,43 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/src\/img\/cover_s.jpg": {
+		"ft": 16384,
+		"iS": 225350,
+		"oA": 0,
+		"oAP": "\/build\/img\/cover_s.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/humanitaarinen": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/img\/humanitaarinen",
+		"oF": 0
+		},
+	"\/src\/img\/ohjelma.jpg": {
+		"ft": 16384,
+		"iS": 188056,
+		"oA": 0,
+		"oAP": "\/build\/img\/ohjelma.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/ohjelma_s.jpg": {
+		"ft": 16384,
+		"iS": 100951,
+		"oA": 0,
+		"oAP": "\/build\/img\/ohjelma_s.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/src\/img\/plan-logo.svg": {
