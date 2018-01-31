@@ -32,6 +32,7 @@ h3 {
 
 h4 {
   font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .nosto {
@@ -109,7 +110,7 @@ p:first-child {
 
 
 .story-container {
-  background-color: lighten($blue, 52%);
+  background-color: lighten($lightblue, 20%);
 }
 
 .story {
@@ -160,12 +161,17 @@ p:first-child {
   }
 }
 
+hr {
+  border: 2px solid lighten($lightblue, 21%);
+  color: lighten($lightblue, 21%);
+}
 
 
 
 
 
-@media only screen and (min-width: 700px) {
+
+@media only screen and (min-width: 600px) {
   html {
     font-size: 17px;
   }
@@ -209,6 +215,7 @@ p:first-child {
   }
   .ingress {
     font-size: 1.1rem;
+    margin-bottom: 1.5rem;
   }
   .story {
     display: flex;
@@ -220,9 +227,22 @@ p:first-child {
     display: inline-block;
   }
   .story-img {
-    margin-top: 1.33rem;
+    margin-top: 2rem;
     width: 35%;
     display: inline-block;
+    position: relative;
+  }
+  .border {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: url('./img/borders.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .article-img img {
+    width: 100%;
   }
   .article-img h2 {
     font-size: 2.3rem;
@@ -233,5 +253,11 @@ p:first-child {
       box-decoration-break: clone;
       -webkit-box-decoration-break: clone;
     }
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .article-img h2 {
+    font-size: 2.6rem;
   }
 }
