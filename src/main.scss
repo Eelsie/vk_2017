@@ -1,0 +1,160 @@
+@import "./base";
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, p .firstletter {
+  font-family: $veneer;
+  font-weight: normal;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ingress {
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: $pink;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.7rem;
+  color: $pink;
+  line-height: 1.1;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+.nosto {
+  color: $white;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-weight: normal;
+  margin-bottom: 1.3rem;
+  .bkg {
+    font-weight: bold;
+    background-color: $blue;
+    padding: 0.15rem 0.6rem;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+}
+
+p {
+  line-height: 1.5;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+.firstletter {
+  float: left;
+  color: $pink;
+  font-size: 5.25rem;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+}
+
+
+
+// LAYOUT
+
+.cover {
+  background-image: url('./img/cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  border: solid 0.8rem #fff;
+  text-align: center;
+  padding-top: 1rem;
+  h1 {
+    font-size: 17vw;
+    margin: 0.5rem 0 0;
+    color: $white;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0;
+    color: $white;
+  }
+  .logo {
+    width: 150px;
+  }
+}
+
+
+.text-container {
+  max-width: 55rem;
+  margin: 1rem auto;
+  padding: 0.8rem;
+}
+
+.story {
+  background-color: lighten($blue, 52%);
+}
+
+.infoimg {
+  position: relative;
+  .blacklayer {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: linear-gradient(180deg, rgba($black, 0), rgba($black, 0.6));
+    // background-color: rgba($black, 0.6);
+  }
+  h3 {
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    color: $white;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+  html {
+    font-size: 17px;
+  }
+  .text-container {
+    padding: 1.2rem;
+  }
+  .cover h1 {
+    font-size: 7rem;
+  }
+  .firstletter {
+    font-size: 5rem;
+    padding-top: 8px;
+  }
+  .columns {
+    column-width: 18rem;
+    column-gap: 2.5rem;
+    column-fill: balance;
+  }
+  h2 {
+    font-size: 2.8rem;
+  }
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
