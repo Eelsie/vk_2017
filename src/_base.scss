@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?368r5a');
-  src:  url('../fonts/icomoon.eot?368r5a#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?368r5a') format('truetype'),
-    url('../fonts/icomoon.woff?368r5a') format('woff'),
-    url('../fonts/icomoon.svg?368r5a#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?368r5a');
+  src:  url('fonts/icomoon.eot?368r5a#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?368r5a') format('truetype'),
+    url('fonts/icomoon.woff?368r5a') format('woff'),
+    url('fonts/icomoon.svg?368r5a#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -48,11 +48,11 @@
 
 @font-face {
     font-family: 'veneerregular';
-    src: url('../fonts/veneer-webfont.eot');
-    src: url('../fonts/veneer-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/veneer-webfont.woff') format('woff'),
-         url('../fonts/veneer-webfont.ttf') format('truetype'),
-         url('../fonts/veneer-webfont.svg#veneerregular') format('svg');
+    src: url('fonts/veneer-webfont.eot');
+    src: url('fonts/veneer-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/veneer-webfont.woff') format('woff'),
+         url('fonts/veneer-webfont.ttf') format('truetype'),
+         url('fonts/veneer-webfont.svg#veneerregular') format('svg');
     font-weight: 400;
     font-style: normal;
 }
@@ -155,7 +155,7 @@ figure {
 }
 
 figcaption {
-  padding: 0.8rem 0;
+  padding: 0.3rem 0;
   font-size: 0.9rem;
   color: lighten($black, 15%);
 }
