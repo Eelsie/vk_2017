@@ -1,11 +1,16 @@
-function playVideo(id, code){
+function playVideo(id, code) {
   document.getElementById(id).innerHTML = '<iframe  src="https://www.youtube.com/embed/'+code+'?autoplay=1&rel=0&theme=light&color=white" frameborder="0"></iframe>';
 }
 
-function closeMenu() {
-  // document.querySelector('.inner-menu').style.opacity = '0'
-  console.log('kfgnreiug')
-}
+var menu = document.querySelector(".inner-menu");
+
+function closeMenu(){
+  if (menu.style.visibility === 'visible') {
+    menu.style.visibility = 'hidden';
+  } else {
+    menu.style.visibility = 'visible';
+  }
+};
 
 // SMOOTH SCROLL (https://pawelgrzybek.com/page-scroll-in-vanilla-javascript/)
 
@@ -14,7 +19,7 @@ function scrollIt(destination, duration = 200, easing = 'linear', callback) {
   const easings = {
     easeOutQuad(t) {
       return t * (2 - t);
-    },
+    }
   };
 
   // Store initial position of a window and time
@@ -65,10 +70,12 @@ function scrollIt(destination, duration = 200, easing = 'linear', callback) {
   scroll();
 }
 
-// Scroll to section 1
-document.querySelector('.btn1').addEventListener('click', () => {
+function scrollToSection(id) {
   scrollIt(
-    document.querySelector('#intro'),
+    document.querySelector(id),
     400,
     'easeOutQuad');
-});
+  closeMenu();
+}
+
+
