@@ -1,8 +1,39 @@
-import scrollmagic from './vendor/ScrollMagic.min'
+// SCROLLMAGIC
+
+var controller = new ScrollMagic.Controller();
+
+document.querySelectorAll('.chapter').forEach(function(chapter) {
+  new ScrollMagic.Scene({
+    triggerElement: chapter,
+    triggerHook: 1
+  })
+  .setClassToggle(chapter, 'fade-in')
+  .addTo(controller);
+});
+
+new ScrollMagic.Scene({
+  triggerElement: '.cover',
+  triggerHook: 0,
+  duration: '30%'
+})
+.setPin('.cover', {pushFollowers: false})
+.addTo(controller);
+
+new ScrollMagic.Scene({
+  triggerElement: '#intro',
+  triggerHook: 0.8
+})
+.setClassToggle('.main-title', 'fade-out')
+.addTo(controller);
+
+
+// PLAY VIDEOS ON IMG CLICK
 
 function playVideo(id, code) {
   document.getElementById(id).innerHTML = '<iframe  src="https://www.youtube.com/embed/'+code+'?autoplay=1&rel=0&theme=light&color=white" frameborder="0"></iframe>';
 }
+
+// TOGGLE MENU MODAL VISIBILITY
 
 var menu = document.querySelector(".inner-menu");
 
@@ -12,7 +43,7 @@ function closeMenu(){
   } else {
     menu.style.visibility = 'visible';
   }
-};
+}
 
 // SMOOTH SCROLL (https://pawelgrzybek.com/page-scroll-in-vanilla-javascript/)
 
@@ -80,7 +111,9 @@ function scrollToSection(id) {
   closeMenu();
 }
 
-// SCROLLMAGIC
+
+
+
 
 
 

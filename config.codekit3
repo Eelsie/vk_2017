@@ -37,7 +37,7 @@
 		},
 	"\/src\/app.js": {
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/app.js",
@@ -380,13 +380,23 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/src\/vendor\/ScrollMagic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/vendor\/ScrollMagic.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/src\/vendor\/ScrollMagic.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/build\/vendor\/ScrollMagic.min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		}
@@ -400,7 +410,7 @@
 	"displayValue": "codekit_vk",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-fry",
-	"lastBuiltDate": 539275584
+	"lastBuiltDate": 539454076
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1793,7 +1803,7 @@
 			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
 			}
 		},
-	"esLintSourceType": 0,
+	"esLintSourceType": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,

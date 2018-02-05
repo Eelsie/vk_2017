@@ -75,6 +75,7 @@ html {
   box-sizing: border-box;
   font-family: $helvetica;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: $black;
   font-size: 15px;
   outline: none;

@@ -39,6 +39,7 @@ h4 {
 }
 
 .nosto {
+  width: 90%;
   color: $white;
   font-size: 1.1rem;
   text-indent: 0;
@@ -200,6 +201,10 @@ p:first-child, p:first-of-type {
   color: #e5e5e5;
 }
 
+.main-title {
+  transition: all 1s ease-out;
+}
+
 #lang {
   position: fixed;
   top: 33px;
@@ -266,6 +271,7 @@ p:first-child, p:first-of-type {
   margin-top: 2rem;
 }
 .article-img > div {
+  width: 90%;
   font-size: 1.9rem;
   position: absolute;
   bottom: 1rem;
@@ -294,6 +300,12 @@ hr {
   height: 20px;
 }
 
+#intro {
+  position: relative;
+  background: $white;
+  padding-top: 1rem;
+}
+
 footer {
   background: $blue;
   margin-top: 3rem;
@@ -312,7 +324,20 @@ footer > div {
   margin: 1.5rem 0;
 }
 
+.chapter {
+  opacity: 0;
+  transform: translateY(150px);
+  transition: all 1s ease-out;
+}
 
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-out {
+  opacity: 0;
+}
 
 
 @media only screen and (min-width: 450px) {
@@ -420,9 +445,9 @@ footer > div {
   }
   .article-img > div {
     font-size: 2.3rem;
-    bottom: 2rem;
+    bottom: 1rem;
     h2 {
-      padding: 1rem 2rem;
+      padding: 0.2rem 2rem;
     }
   }
   .outer-menu .menu > div > div > ul > li {
@@ -431,6 +456,15 @@ footer > div {
   }
   .embed-container {
     margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .article-img > div {
+    bottom: 2rem;
+  }
+  .article-img h2 {
+    padding: 1rem 2rem;
   }
 }
 
