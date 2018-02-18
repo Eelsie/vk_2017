@@ -7,7 +7,7 @@
 		"uuidString": "5890D4E7-CEC8-4562-815E-4757ED4FEB98"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/build": {
 		"ft": 65536,
@@ -147,6 +147,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/src\/img\/factory.jpg": {
+		"ft": 16384,
+		"iS": 25668,
+		"oA": 0,
+		"oAP": "\/build\/img\/factory.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/img\/girls.jpg": {
 		"ft": 16384,
 		"iS": 217540,
@@ -192,6 +202,16 @@
 		"iS": 205582,
 		"oA": 0,
 		"oAP": "\/build\/img\/humanitaarinen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/img\/humanitaarinen_s.jpg": {
+		"ft": 16384,
+		"iS": 122993,
+		"oA": 0,
+		"oAP": "\/build\/img\/humanitaarinen_s.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -256,6 +276,13 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/src\/img\/ohjelma.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/img\/ohjelma.psd",
+		"oF": 0
 		},
 	"\/src\/img\/ohjelma_s.jpg": {
 		"ft": 16384,
@@ -364,7 +391,7 @@
 		"oAP": "\/build\/img\/video9.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/src\/main.scss": {
@@ -410,7 +437,7 @@
 	"displayValue": "codekit_vk",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-fry",
-	"lastBuiltDate": 540055176
+	"lastBuiltDate": 540331589
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -418,6 +445,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
